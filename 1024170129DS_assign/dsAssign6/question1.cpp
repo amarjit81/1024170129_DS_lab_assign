@@ -12,7 +12,7 @@ public:
     }
 };
 
-// --------------------- Doubly Linked List ---------------------
+
 class DoublyList {
     Node *head;
 public:
@@ -106,7 +106,7 @@ public:
     }
 };
 
-// --------------------- Circular Linked List ---------------------
+
 class CircularList {
     Node *head;
 public:
@@ -206,7 +206,7 @@ public:
     }
 };
 
-// --------------------- Main Menu ---------------------
+
 int main() {
     DoublyList dlist;
     CircularList clist;
@@ -252,3 +252,4 @@ int main() {
 
     return 0;
 }
+
