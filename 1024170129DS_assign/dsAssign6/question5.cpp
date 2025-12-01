@@ -30,7 +30,7 @@ public:
         temp->next = n;
     }
 
-    // Make the list circular manually for testing
+    
     void makeCircular() {
         if (head == NULL) return;
         Node *temp = head;
@@ -72,7 +72,7 @@ int main() {
     list.insert(7);
     list.insert(5);
 
-    // uncomment this line to make list circular
+    
     list.makeCircular();
 
     list.display();
@@ -84,3 +84,4 @@ int main() {
 
     return 0;
 }
+
