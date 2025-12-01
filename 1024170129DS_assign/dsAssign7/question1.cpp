@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// SELECTION SORT
+
 void selectionSort(int arr[], int n) {
     for(int i = 0; i < n - 1; i++) {
         int minIndex = i;
@@ -13,7 +13,7 @@ void selectionSort(int arr[], int n) {
     }
 }
 
-// INSERTION SORT
+
 void insertionSort(int arr[], int n) {
     for(int i = 1; i < n; i++) {
         int key = arr[i];
@@ -26,7 +26,7 @@ void insertionSort(int arr[], int n) {
     }
 }
 
-// BUBBLE SORT
+
 void bubbleSort(int arr[], int n) {
     for(int i = 0; i < n - 1; i++) {
         for(int j = 0; j < n - i - 1; j++) {
@@ -36,7 +36,7 @@ void bubbleSort(int arr[], int n) {
     }
 }
 
-// MERGE FUNCTION for MERGE SORT
+
 void merge(int arr[], int l, int m, int r) {
     int n1 = m - l + 1;
     int n2 = r - m;
@@ -64,7 +64,7 @@ void mergeSort(int arr[], int l, int r) {
     }
 }
 
-// QUICK SORT
+
 int partition(int arr[], int low, int high) {
     int pivot = arr[high];
     int i = low - 1;
@@ -86,7 +86,7 @@ void quickSort(int arr[], int low, int high) {
     }
 }
 
-// MAIN FUNCTION
+
 int main() {
     int n;
     cout << "Enter number of elements: ";
@@ -117,3 +117,4 @@ int main() {
 
     return 0;
 }
+
