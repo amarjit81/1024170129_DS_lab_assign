@@ -45,7 +45,7 @@ public:
             temp = temp->next;
         } while (temp != head);
 
-        // repeat head node at end
+        
         cout << head->data << endl;
     }
 };
@@ -58,7 +58,8 @@ int main() {
     cl.insert(80);
     cl.insert(60);
 
-    cl.display(); // Expected Output: 20 100 40 80 60 20
+    cl.display(); 
 
     return 0;
 }
+
